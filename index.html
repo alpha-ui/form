@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ML Mecidal Centre</title>
+<meta name="keywords" content="Pathology Home Visit, Health Check Up Packages, Regular Health Check Up, health check up plans, complete health checkup, annual health checkup, preventive health checkup, mumbai, pune, banglore" />
+<meta name="description" content="NM Medical offers home checkup services throughout the city of Mumbai 24/7 including Pathology services, Digital X-ray, ECG in Pune and Bangalore also." />
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/animate.css" type="text/css" />
+<link rel="stylesheet" href="css/animations.min.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/menu.css" type="text/css"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="canonical" href="home-visit.html" > 
+<script src="../www.google.com/recaptcha/api2cc6.js?render=6Ley1aIZAAAAABS2mrD6CNo6a2n0EFP-t3CBoCx0"></script>
+	<script>
+		grecaptcha.ready(function() {
+			grecaptcha.execute('6Ley1aIZAAAAABS2mrD6CNo6a2n0EFP-t3CBoCx0', {action: 'validate_captcha'}).then(function(token) {
+
+				var recaptchaResponse = document.getElementById('g-recaptcha-response');
+				recaptchaResponse.value = token;
+         // console.log(recaptchaResponse);  
+
+     });
+		});
+	</script>
+
+
+<script type="text/javascript">
+	function validate_me(val)
+	{
+
+		if(validate_form(val))
+		 {
+			if(!$('input[name=frmmobile]').val().match('[0-9]{10}'))  {
+					alert("Please enter 10 digit mobile number");
+					return false;
+				}
+				
+				
+				
+	        var str_mob =    $('input[name=frmmobile]').val();
+	        if(str_mob.length!=10)
+	        {
+	        	alert("Please enter 10 digit mobile number");
+	                return false;
+	        }	
+	        
+	        if($('#enquiry input:checked').length == 0)
+			  {
+				alert("Please select at least one test");
+				return false;
+			  } 
+			  
+			  
+			  var frmdetails = $('input[name="frmdetails"]').val();
+			var ext_str = $('input[type="file"]').val();
+
+
+       
+
+				if(!ext_str && !frmdetails)
+				{
+				  alert("Please enter test detail or upload file");
+				  return false;
+				}
+
+				if(ext_str!="")
+			   {
+
+				var ext = $('input[type="file').val().split('.').pop().toLowerCase();
+				  if($.inArray(ext, ['doc','docx','pdf','txt','xls','txt','odt','ods','png','jpeg','jpg']) == -1) {
+					   alert('Please upload file with valid extension (.doc,.docx,.pdf,.txt,.xls,.txt,.odt,.ods,.png,.jpeg,.jpg)');
+					  return false;
+				  }
+				} 
+
+				
+		 } 
+		 else
+		 {
+		  
+		  return false;
+		 }	
+	}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119344055-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-119344055-1');
+</script>
+<!-- Google Analytics Code -->
+
+<script type="text/javascript">  var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-29952141-1']);  _gaq.push(['_trackPageview']);
+
+(function() {
+
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+})();</script>
+
+<!-- Google Analytics Code End -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FF7G6TQWKE"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-FF7G6TQWKE');
+</script>
+</head>
+<body class="book-diagnostic-test">
+<!-- <div class="main-panel static"> -->
+
+<!-- <div class="top-panel"> -->
+  <!-- <div class="dropdown"> -->
+   <!-- <div class="top-meu-bar">
+ <ul>
+                <li><a href="photo.html">Photos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="google-reviews.html">Reviews</a></li>
+				 </ul>
+    </div> -->
+    <!-- <div class="social-icons social-iconsdm">
+		<a class="hvr-wobble-vertical" href="whatsapp-details.html"><img src="images/whatsapp.png" alt=""></a>
+		<a class="hvr-wobble-vertical" href="contact-us.html"><img src="images/email-icon.png" alt=""></a> -->
+
+		<!--a class="hvr-wobble-vertical" href="#"><img src="images/fabebook.png"/></a>
+		<a class="hvr-wobble-vertical" href="#"><img src="images/twitter.png"/></a>
+		<a class="hvr-wobble-vertical" href="#"><img src="images/instagram.png"/></a-->
+	<!-- </div> -->
+	
+    <!-- <div class="dropbtn login"><a href="https://portal1.nmmedical.com/HIS/Public/View/PatientLogin.aspx" target="_blank">Log In</a></div> -->
+    <!--div class="dropdown-content">
+			<form>
+				<div class="form-row1"><input type="text" placeholder="Name"/></div>
+				<div class="form-row1"><input type="text" placeholder="Email"/></div>
+				<div class="form-row1 button text-center"><input type="submit" value="Submit"/></div>
+				<div class="form-row1 link text-center"><a href="">Forget Password</a> | <a href="">Sign Up</a></div>
+				
+			</form>
+		  </div--> 
+  <!-- </div> -->
+  <!-- <div class="top-panel2 d-flex flex-wrap justify-content-around">
+    
+    <div class="logo"><a href="index.html"><img src="images/logo-nm-medical.png" alt="NM Medical"></a></div>
+    <div class="top-menu">
+      <div class="d-flex flex-wrap menu-panel float-right">
+        <nav id='cssmenu'>
+          <div id="head-mobile"></div>
+          <div class="button"></div>
+          <ul>
+            <li><a href="index.html">Home</a></li> -->
+            <!--li><a href="about-us.php">About us</a></li-->
+            <!-- <li><a href="diagnostic-tests.html">Diagnostic <br>
+              Tests</a>
+              <ul>
+                <li><a href="pathology.html">Pathology</a></li>
+                <li><a href="radiology.html">Radiology</a></li>
+                <li><a href="cardiology.html">Cardiology</a></li>
+                <li><a href="whole-body-mri.html">Whole Body MRI</a></li>
+                <li><a href="cardiac-ct.html">Cardiac CT</a></li>
+                <li><a href="https://www.prolivdigipath.com/" target="_blank">Digital Histopathology</a></li>
+                <li><a href="https://www.prolivdigipath.com/" target="_blank">Molecular Pathology</a></li>
+                <li><a href="https://nmprogenome.com/" target="_blank">Genetic Testing</a></li>
+                <li><a href="allergy.html">Allergy</a></li>
+                <li><a href="sleep-apnea.html">Sleep Apnea</a></li>
+              </ul>
+            </li>
+            <li><a href="health-check-ups.html">Health<br>
+              Checkups</a>
+              <ul>
+                <li class=""><a href="primary.html">Primary</a></li>
+                <li class=""><a href="adolescence.html">Adolescence</a></li>
+                <li class=""><a href="pcos.html">PCOS</a></li>
+                <li class=""><a href="pre-marital.html">Pre-Marital</a></li>
+                 <li class=""><a href="post-menopausal.html">Post Menopausal</a></li>
+                <li class=""><a href="gold.html">Gold</a></li>
+                <li class=""><a href="gold-plus.html">Gold Plus</a></li>
+                <li class=""><a href="platinum.html">Platinum</a></li>
+                <li class=""><a href="diamond.html">Diamond</a></li>
+                <li class=""><a href="health-360-deluxe.html">Health 360 Deluxe</a></li>
+                <li class=""><a href="pregnancy.html">Pregnancy</a></li>
+                <li class=""><a href="cancer-screening.html">Cancer Screening</a></li>
+              </ul>
+            </li> -->
+            <!--<li><a href="lifestyle-diseases.php">Specialised<br>
+              Packages</a>
+              <ul>
+                <li class=""><a href="lifestyle-diseases.php">Lifestyle Diseases</a></li>
+                <li class=""><a href="brain.php">Brain</a></li>
+                <li class=""><a href="breast.php">Breast</a></li>
+                <li class=""><a href="liver.php">Liver</a></li>
+                <li class=""><a href="infectious-diseases.php">Infectious Diseases</a></li>
+                <li class=""><a href="pregnancy.php">Pregnancy</a></li>
+                <li class=""><a href="infertility.php">Infertility</a></li>
+                <li class=""><a href="newborn-screening.php">Newborn Screening</a></li>
+                <li class=""><a href="cancer-check.php">Cancer Check</a></li>
+              </ul>
+            </li>-->
+            <!-- <li><a href="corporate-check-ups.html">Corporate<br>
+              Checkups</a> -->
+              <!--ul>
+                <li class=""><a href="health-checkups2.php">Health Checkups</a></li>
+                <li class=""><a href="corporate-health-management-consultation.php">Corporate Health Management Consultation</a></li>
+              </ul-->
+            </li>
+			<!-- <li><a href="breast-screening-clinic.html">Breast<br> Screening Clinic</a></li> -->
+          <!--   <li><a href="http://180.179.22.210:8282/" target="_blank">Online<br>Reports</a></li> -->
+			 <!-- <li><a href="career.html">Careers</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a id="brochure" href="brochure/nm-medical-brochure.pdf" class="brochure-css" target="_blank">E-brochure </a></li>
+                 <li class="menu-link-p"><a href="privacy-policy.html">Privacy Policy </a></li>
+                  <li class="menu-link-p"><a href="terms-and-conditions.html">Terms &amp; Conditions </a></li>
+                  <li class="menu-link-p"><a href="cancellation-policy.html">Cancellation &amp; Policy </a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="search"> -->
+      <!--input type="search" placeholder="Search">
+      <input type="button"-->
+    <!-- </div>
+  </div> -->
+<!-- </div> -->
+<div class="content-panel inside">
+  <div class="container">
+    <div class="d-flex flex-wrap full-width align-items-stretch">
+      <div class="col-lg-2 col-sm-3 left-panel pd2">
+        <div class="cities">
+          <div class="branches">
+  <!-- <button class="dropbtn" type="button" onClick="myFunction()">Select City <span class="caret"></span></button> -->
+   <img src="./images/logo.png" alt="" class="img-responsive"/>
+  <div id="tabs1" style="display:none;" class="tabs">
+    <div id="parentHorizontalTab">
+      <ul class="resp-tabs-list hor_1">
+         <li>Mumbai</li>
+        <li>Satellite Centres Mumbai</li>
+        <li>Pune</li>
+        <li>Nashik</li>
+        <li>Bangalore</li>
+       <!--  <li><a  href="https://rxdx.in/rxdx-nm-medical-domlur/?source_campaign=&gclid=Cj0KCQjwuNemBhCBARIsADp74QSvfP2tq3SZe5tFuN3Jj2yR3f0meeYHm0cOCOd2Me4XDuHo9a8mVTMaAuc1EALw_wcB" target="_blank">Bangalore</a></li>
+ -->        <!-- <li><a  href="http://nmmedicalbangalore.com/" target="_blank">Bangalore</a></li> -->
+      </ul>
+       <div class="resp-tabs-container hor_1">
+      
+
+
+      
+        <div> 
+          <!--vertical Tabs-->
+          
+          <div id="ChildVerticalTab_1">
+            <ul class="resp-tabs-list ver_1">  
+              <li>Marine Lines (Eva Health)</li>
+              <li>Marine Lines (Health 360)</li>
+              <li>Chowpatty</li>
+              <li>Parel</li>
+              <li>Bandra</li>
+              <li>Khar</li>
+              <li>Andheri</li>
+              <li>Malad</li>
+              <li>Borivali</li>
+              <li>Chembur</li>
+              <li>Mulund</li>
+              <li>Vashi</li>
+            </ul>
+            <div class="resp-tabs-container ver_1"> 
+			  <div class="tab-content">
+                <div class="location-txt"> <span>Marine Lines (Eva Health)</span><br>
+                 Kimatrai Building, Maharshi Karve Rd, <br>Dhobi Talao,  <br>New Marine Lines, <br>Marine Lines, Mumbai, Maharashtra 400020, India
+                  <div class="branch-no">+91 22 4907 9999</div>
+				  <div class="website-link"><a href="https://www.nmevahealth.com/" target="_blank">www.nmevahealth.com</a></div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/aPMED5UwTs1MVsGVA" target="_blank"></a></div>
+                </div>
+                <div class="location-map-img no-border"><img src="images/eva-health-logo.png" alt=""></div>
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"> <span>Marine Lines (Health 360)</span><br>
+                 Dariya Nagar House, <br>Maharshi Karve Marg, Next To ICICI Bank,<br> Marine Lines East, <br>Mumbai, Maharashtra 400002, India
+                  <div class="branch-no">+91 22 4342 9999</div>
+				  
+				   <div class="website-link"><a href="http://health360.in/" target="_blank">health360.in</a></div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/fsCvY6zStnfXfDwu7" target="_blank"></a></div>
+                </div>
+                <div class="location-map-img no-border"><img src="images/health360-logo-new.png" alt=""></div>
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"> <span>Chowpatty</span><br>
+                  Mehta House, <br>36, Pandita Ramabai Road Chowpatty, <br>Dadi Sheth Wadi, Malabar Hill, <br>Mumbai, Maharashtra 400007, India
+                  <div class="branch-no">+91 22 4342 5555</div>
+				 
+                  <div class="branch-map"><a href="https://goo.gl/maps/SVj8s64k1482" target="_blank"></a></div>
+                </div>
+                
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"> <span>Parel</span><br>
+                  Opp Motilal Oswal Tower, <br>Gokhale Road South, <br>Next to ST Bus Depot, <br>Parel W, Babasaheb Ambedkar Nagar, <br>Mumbai, Maharashtra 400025, India
+                  <div class="branch-no">+91 22 4966 2222</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/e3c7rHBxMp52" target="_blank"></a></div>
+                </div>
+                
+              </div>
+              <div class="tab-content">
+				<p>We have recently relocated our CT Scan & MRI centre in Bandra into Hinduja Khar.  The department is run by NM Medical and is equipped with the latest 3T MRI and 128 Slice CT Scan.</p><br>
+				<div class="location-txt"> <span>Bandra</span><br>
+                  Hinduja Khar, <br>IPD Building, <br>Basement 
+                  <div class="branch-no">022 4342 6666</div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/cUgCBi55VDumv5Qn9" target="_blank"></a></div>
+                </div>
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"><span>Khar</span><br>
+                  Junction of 14th and 33rd Road, <br>Off Linking Road, <br>Above Bombay Blue Restaurant,<br> Bandra West, <br>Mumbai, Maharashtra 400052, India
+                  <div class="branch-no">+91 22 4342 8888</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/23aqca4uUx72" target="_blank"></a></div>
+                </div>
+                
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"><span>Andheri</span><br>
+                  B-13, Aver Plaza,Ground Floor, <br>Opp. Citi Mall, Behind Maruti Showroom, <br>New Link Rd, Veera Desai Industrial Estate, <br>Andheri West, <br>Mumbai, Maharashtra 400053
+                  <div class="branch-no">+91 22 4613 2222</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/rHYVQzE4DDP2" target="_blank"></a></div>
+                </div>
+                
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"><span>Malad</span><br>
+                  Ground Floor, Sej Plaza, <br>Marve Road, Next To Nutan High School, <br>Malad West, Mahavir Nagar, Malad West, <br>Mumbai, Maharashtra 400064, India
+                  <div class="branch-no">+91 22 4613 3333</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/ZRmVvGJMiN92" target="_blank"></a></div>
+                </div>
+                
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"><span>Borivali</span><br>
+                  Swastik Bldg, 18/6, R C Patel Road,<br> Chandavarkar Cr. Rd. No. 2, <br>Next to ICICI Bank, <br>Borivali (West), Roshan Nagar, Borivali, <br>Mumbai, Maharashtra 400091, India
+                  <div class="branch-no">+91 22 4342 4444</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/RbGETB6msQn" target="_blank"></a></div>
+                </div>
+                
+              </div>
+			  <div class="tab-content">
+                <div class="location-txt"><span>Chembur</span><br><br>
+				  
+                  Basement, <br>Sushrut Hospital & Research Centre <br>365, Sant Vershaw Kakkaya Marg, <br>Swastik Park, Chembur, <br>Mumbai, Maharashtra 400071<br><br>
+				  <b>Facilities:</b> 3T MRI only<br>
+                  <div class="branch-no"> 022 6958 5562 </div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/gDF8VQfWTvSPumQ27" target="_blank"></a></div>
+                </div>
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"><span>Mulund</span><br>
+                  No. 820, 8th Floor, <br>Corporate Centre Nirmal Lifestyles Mall, <br>L B S Marg, Mulund West, <br>Moti Nagar, Mulund Colony, <br>Mulund West, <br>Mumbai, Maharashtra 400080, India
+                  <div class="branch-no">+91 22 4342 7777</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/3gHaNKBtEg32" target="_blank"></a></div>
+                </div>
+				
+				<div class="location-txt"><span>Mulund - 3T MRI</span><br>
+                  Bhagayshree Apts, Mirani Chowk,<br> Dr Ambedkar Rd, Mulund, West,<br> Mumbai, Maharashtra 400080<br>
+				  <div class="branch-no">+91 88799 00034</div>
+				  <b>Facilities:</b> Pathology including home visit, Digital Xray with Scanogram, ECG, Colour Doppler, 4D Sonography, 3T MRI<br>
+				  <div class="branch-map"><a href="https://maps.app.goo.gl/7WughqKaHzEaocEw5" target="_blank"></a></div>
+                </div>
+				
+              </div>
+			 
+              <div class="tab-content">
+                <div class="location-txt"><span>Vashi</span><br>
+                  Palm Beach Galleria Mall, <br>1st Flr, #102, Palm Beach Rd,<br> Phase 2, Sector 19D, <br>Vashi, Navi Mumbai, <br>Maharashtra 400703, India
+                  <div class="branch-no">+91 86574 14376</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/hhnXghQfZFP2" target="_blank"></a></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+          <div> 
+          
+          <div id="ChildVerticalTab_1">
+            <ul class="resp-tabs-list ver_1">  
+				<li>Colaba</li>
+			   <li>Matunga</li>
+				<li>Seven Bungalows</li>
+				 <li>Borivali (East)</li>
+             
+            </ul>
+            <div class="resp-tabs-container ver_1"> 
+        <div class="tab-content">
+                <div class="location-txt"> <span>Colaba</span><br>
+                  Poornima, Next to HDFC ATM, <br>Shahid Bhagat Singh Rd, <br>Near Colaba Fire Station, <br>Mumbai, Maharashtra 400005, India
+                  <div class="branch-no">+91 99 2029 9205</div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/TJ9ZZv1K9btWWNAh8" target="_blank"></a></div>
+                </div>
+              </div>
+        <div class="tab-content">
+                <div class="location-txt"> <span>Matunga</span><br>
+                  Shop No. 4, <br>Mangal Building, R A Kidwai Road,
+				  <br> near SNDT & Amulakh Amichand School, <br>Matunga East, Mumbai, <br> Maharashtra 400019, India
+                  <div class="branch-no">+91 84337 36456</div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/264cKfAmet6fteiL6" target="_blank"></a></div>
+                </div>
+              </div>
+
+                  <div class="tab-content">
+                <div class="location-txt"><span>Seven Bungalows</span><br>
+                Shop No.06, Tulsi-l CHSL,<br>Off J.P. Road,<br>Near Axis Bank, Seven Bungalows, <br>Andheri West, Mumbai <br>Maharashtra 400053, India
+                  <div class="branch-no">+91 8976872771</div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/pPNjRQgyvyTKssoJ8" target="_blank"></a></div>
+                </div>
+                
+              </div>
+			<div class="tab-content">
+                <div class="location-txt"><span>Borivali (East)</span><br>
+                  Shop No.l, Om Hemgiri Building,<br>Shantivan, near IDBI Bank, <br>Borivali (East), Mumbai,  <br> Maharashtra 400066, India
+                  <div class="branch-no">+91 8657530462</div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/Dxh7df9HCKNVK7Ea9" target="_blank"></a></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+         <div id="ChildVerticalTab_2">
+            <ul class="resp-tabs-list ver_1">
+              <li>Kalyani Nagar</li>
+              <li>Sancheti Hospital </li>
+              <li>Digital PET CT</li>
+            </ul>
+            <div class="resp-tabs-container ver_1">
+              <div class="tab-content">
+                <div class="location-txt"><span>Kalyani Nagar </span>
+				<br>1st Fortaleza F Annex, East Ave,<br> above vodafone store, Prathamesh Society,<br> Kalyani Nagar, Pune, Maharashtra 411006<br>
+                
+                  <div class="branch-no">020 2660 0505</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/5q2Agvjp6Q12" target="_blank"></a></div>
+                </div>
+              </div>
+			  <div class="tab-content">
+                <div class="location-txt"><span>Sancheti Hospital </span><br>
+				  SIOR Building Thube Park,<br> Shivajinagar, Pune, Maharashtra 411005
+                  <div class="branch-no">082377 70505</div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/DzgWdVQvviyWDWJ37" target="_blank"></a></div>
+                </div>  
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"><span>Digital PET CT </span><br>
+                  Advanced Orthocare Wing,<br> Sancheti Hospital,<br> Shivaji Nagar, Pune
+                  <div class="branch-no">020 2999 0808</div>
+                  <div class="branch-map"><a href="https://maps.app.goo.gl/LQQhJ1pst3ToP7uQ8" target="_blank"></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+
+        <!--    <div id="ChildVerticalTab_2">
+            <ul class="resp-tabs-list ver_1">
+              <li>Kalyani Nagar</li>
+              <li>Shivaji Nagar</li>
+            </ul>
+            <div class="resp-tabs-container ver_1">
+              <div class="tab-content">
+                <div class="location-txt"><span>Kalyani Nagar </span><br>Fortaleza F Annex<br>
+                  Kalyani Nagar, <br>Pune 411014
+                  <div class="branch-no">020 2660 0505</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/5q2Agvjp6Q12" target="_blank"></a></div>
+                </div>
+                <div class="location-map-img"><img src="images/pune1.jpg" alt=""></div>
+              </div>
+              <div class="tab-content">
+                <div class="location-txt"><span>Shivaji Nagar </span><br>Ground Floor, Main Building<br>  
+                  Sancheti Hospital<br>
+                  Shivaji Nagar, <br>Pune 411005
+                  <div class="branch-no">020 2552 0505</div>
+                  <div class="branch-map"><a href="https://goo.gl/maps/J4FVKieZcTw" target="_blank"></a></div>
+                </div>
+                <div class="location-map-img"><img src="images/pune2.jpg" alt=""></div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+        <div>
+          <div class="resp-tabs-container ver_1">
+            <div class="tab-content">
+              <div class="location-txt"><span>Nashik  </span><br>Police Chowki, near Khutvadnagar,<br>
+               opposite Amantran Hotel, Venu Nagar,<br>Chanakya Nagar, Khutawad Nagar,<br>
+              Nashik, Maharashtra 422007, India  <br>
+                <div class="branch-no">+91 8655973781</div>
+		<!-- 		<div class="website-link"><a href="http://nmmedicalbangalore.com/" target="_blank">www.nmmedicalbangalore.com</a></div> -->
+                <div class="branch-map"><a href="https://maps.app.goo.gl/kKKDidvvbrKgRDH86" target="_blank"></a></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+         <div>
+ <div class="resp-tabs-container ver_1">
+            <div class="tab-content">
+              <div class="location-txt"><span>Bangalore </span><br>Ground Floor, Tower A<br>
+                 Corporate Block, Diamond District<br>
+            HAL Airport Rd, ISRO Colony, Domlur<br>Bengaluru 560008<br>
+                <div class="branch-no">080 4046 6464</div>
+      <!--   <div class="website-link"><a href="http://nmmedicalbangalore.com/" target="_blank">www.nmmedicalbangalore.com</a></div> -->
+                <div class="branch-map"><a href="https://maps.app.goo.gl/se8n7uBWAWmqvcQk8"></a></div>
+              </div>
+              
+            </div>
+          </div>
+         </div>
+		
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+      <div class="col-lg-8 col-sm-6 center-panel opacity pd1 form-pg">
+        <h1 class="hd1">Book Diagnostic Test</h1>
+        <!-- <div class="buttons"> <a href="visit-the-centre.html">Visit the Centre</a> <a href="home-visit.html" class="inactive">Home Visit</a> </div> -->
+		<p class="enq-nu">For more enquiry contact us on <img src="images/whatsapp-new.png" /> <a href="https://api.whatsapp.com/send?phone=911234567890&amp;text=hello" target="_blank">+91 1234567890</a> (South Mumbai) 
+		<p class="num-or">OR</p>
+		
+        <div id="infinite-scroll" class="content">
+          <div class="test-form">
+            <form onsubmit="return validate_me(this);" name="enquiry" id="enquiry" method="post" action="https://www.nmmedical.com/mailto-home-visit.php" enctype="multipart/form-data">
+              <div class="form-row1 checkbox">
+                <div class="form-clm">
+                  <label class="container"><span class="txt1">Pathology Tests</span>
+                    <input type="checkbox" name="pathologytests" value="Pathology Tests">
+                    <span class="checkmark"></span> </label>
+                </div>
+                <div class="form-clm">
+                  <label class="container"><span class="txt1">Allergy Test</span>
+                    <input type="checkbox" name="allergytest" value="Allergy Test">
+                    <span class="checkmark"></span> </label>
+                </div>
+              </div>
+              <div class="form-row1 checkbox">
+                <div class="form-clm">
+                  <label class="container"><span class="txt1">Digital X Ray</span>
+                    <input type="checkbox" name="digitalxray" value="Digital X Ray">
+                    <span class="checkmark"></span> </label>
+                </div>
+                <div class="form-clm">
+                  <label class="container"><span class="txt1">Holter Monitoring</span>
+                    <input type="checkbox" name="holtermonitoring" value="Holter Monitoring">
+                    <span class="checkmark"></span> </label>
+                </div>
+              </div>
+              <div class="form-row1 checkbox">
+                <div class="form-clm">
+                  <label class="container"><span class="txt1">Ambulatory BP</span>
+                    <input type="checkbox" name="ambulatorybp" value="Ambulatory BP">
+                    <span class="checkmark"></span> </label>
+                </div>
+                <div class="form-clm">
+                  <label class="container"><span class="txt1">Sleep Study</span>
+                    <input type="checkbox" name="sleepstudy" value="Sleep Study">
+                    <span class="checkmark"></span> </label>
+                </div>
+              </div>
+              <div class="form-row1">
+                <div class="form-clm">
+                  <input type="text" name="frmfirstname" placeholder="First Name"/>
+                </div>
+                <div class="form-clm">
+                  <input type="text" name="frmlastname" placeholder="Last Name"/>
+                </div>
+              </div>
+              <div class="form-row1">
+                <div class="form-clm">
+                  <input type="email" style="width:100%" name="frmemail" placeholder="Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please enter valid email-id"/>
+                </div>
+                <div class="form-clm">
+                  <input type="number" min="10" style="width:100%" name="frmmobile" placeholder="Mobile No."/>
+                </div>
+              </div>
+              <div class="form-row1">
+                <div class="form-clm">
+                  <textarea name="frmaddress" id="frmaddress" placeholder="Home address"></textarea>
+                </div>
+              </div>
+              <div class="form-row1">
+                <div class="form-clm">
+                  <input name="frmdetails" type="text" placeholder="Type the test details"/>
+                </div>
+                <div class="form-clm"><span class="or">Or</span>
+                  <div class="input-container file">
+                    <input name="frmfile" type="file" id="real-input">
+                    <input class="browse-btn">
+                    <span class="file-info">Upload file</span> </div>
+                </div>
+              </div>
+              <div class="form-row1">
+                <div class="form-clm date-time">
+                  <input class="date"  type="text" id="datepicker" autocomplete="off" readonly name="frmdate" placeholder="Preferred Date"/>
+                   <input class="time" type="text" name="frmtime" id="timepicker" readonly placeholder="Preferred Time">
+                </div>
+              </div>
+               <div class="g-recaptcha" data-sitekey="6LdQsAIqAAAAAGjUCe4ASueaTkNxwafOEETKtdzB"></div>
+<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+				<input type="hidden" name="action" value="validate_captcha">
+                
+              <div class="form-row1 button text-center">
+                <input type="submit" value="Submit"/>
+              </div>
+              <input type="hidden"  value="text,frmfirstname,First Name,text,frmlastname,Last Name,text,frmmobile,Mobile No.,text,frmemail,Email Address,text,frmdate,Preferred Date,text,frmtime,Preferred Time,text,frmaddress,Home address" name="js_Blank">
+              <input type="hidden" name="js_Email" value="frmemail,E-mail">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-sm-3 right-panel pd3">
+        <!-- <ul class="right-side-menu menu3">
+          <li class="animated fadeInLeft tooltip" style="animation-delay:1.5s;" data-animation="fadeInLeft" data-animation-delay="2s"><a href="book-diagnostic-test.html"> <span class="logo"><span class="logo1 book-diagnostic-test1"></span></span> <span class="tooltiptext">Book Diagnostic Test</span></a> </li>
+          <li class="animated fadeInLeft tooltip" style="animation-delay:1.8s;" data-animation="fadeInLeft" data-animation-delay="2.3s"><a href="book-health-checkup.html"> <span class="logo"><span class="logo1 book-health-checkup1"></span></span> <span class="tooltiptext">Book Health Checkup</span> </a></li>
+          <li class="animated fadeInLeft tooltip" style="animation-delay:2.1s;" data-animation="fadeInLeft" data-animation-delay="2.6s"><a href="request-corporate-quote.html"> <span class="logo"><span class="logo1 request-corporate-quote1"></span></span> <span class="tooltiptext">Request Corporate Quote</span> </a></li>
+        </ul> -->
+          <div class="carousel">
+            <div class="carousel-inner">
+              <img src="./images/img/1.jpg" alt="Image 1">
+              <img src="./images/img/2.jpg" alt="Image 2">
+              <img src="./images/img/3.jpg" alt="Image 3">
+              <img src="./images/img/4.jpg" alt="Image 4">
+              <img src="./images/img/5.jpg" alt="Image 5">
+              <img src="./images/img/6.jpg" alt="Image 6">
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--div class="whatsapp-details"><a href="whatsapp-details.php"><img src="images/whatsapp.png" alt=""></a></div-->
+<div class="footer-wrap">
+<div class="container">
+<div class="row">
+<div class="col-lg-5 col-md-5 col-sm-5 footer-box-1">
+<h3 class="footer-heading"><a href="diagnostic-tests.html">M. L. Medical Centre</a></h3>
+<p style="color: white;">ML Medical Centre is a leading pathology, X-ray, and sonography center located in Andheri West. With a team of highly skilled medical professionals and state-
+  of-the-art technology, we provide accurate and
+  reliable diagnostic services.</p>
+
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 footer-box-2">
+<h3 class="footer-heading"><a href="health-check-ups.html">Contact Us</a></h3>
+<ul class="footer-menu"> 
+               <li class=""><a href="tel:+919004472332">+91 90044 72332</a></li>
+               <li class=""><a href="mailto:test@gmail.com">test@gmail.com</a></li>
+              </ul>  
+
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 footer-box-3">
+<!--<h3 class="footer-heading"><a href="whatsapp-details.php">Whats App</a></h3>
+<h3 class="footer-heading"><a href="http://180.179.22.210:8282/" target="_blank">Log In</a></h3>-->
+<div class="contact-detail">
+<h2 class="hd2">Corporate Office</h2>
+<div class="address-panel">
+<p>
+ML Medical Centre,<br> Shop. No-4, Lakshkaria Green Height,<br>
+Ground Floor, Jogeshwari-west, <br>Mumbai – 400102.</p>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-panel">
+	<div class="d-flex flex-wrap full-width align-items-stretch">
+		<div class="col-lg-2"></div>
+		<div class="col-lg-8 white-bg">
+			<!--span>
+				<ul class="footer-logo">
+					<li><a class="hvr-wobble-vertical" target="_blank" href="http://health360.in/"><img src="images/footer-logo1.png" alt=""/></a></li>
+					<li><a class="hvr-wobble-vertical" href="#"><img src="images/footer-logo2.png" alt=""/></a></li>
+					<li><a class="hvr-wobble-vertical" target="_blank" href="http://www.ninemonthspregnancy.com/"><img src="images/footer-logo3.png" alt=""/></a></li>
+					<li><a class="hvr-wobble-vertical" href="#"><img src="images/footer-logo6.png" alt=""/></a></li>
+					<li><a class="hvr-wobble-vertical" href="#"><img src="images/footer-logo5.png" alt=""/></a></li>
+					<li><a class="hvr-wobble-vertical" href="#"><img src="images/footer-logo4.png" alt=""/></a></li>
+				</ul>
+			</span-->
+			
+		
+			<div> 
+        <p class="align-items-center justify-content-between"><strong>Designed & Developed by 8Bit Tech Solutions</strong></p>
+          <!-- <div class="slide col-lg-2 col-md-4 col-sm-4 col-6 footer-logo2">
+			<a href="http://health360.in/" target="_blank" class="hvr-wobble-vertical"><img src="images/logo-health.png" alt="Health 360"></a>
+		  </div>
+		  <div class="slide col-lg-2 col-md-4 col-sm-4 col-6 footer-logo1">
+			<a href="https://www.nmevahealth.com/" target="_blank" class="hvr-wobble-vertical"><img src="images/footer-logo2.png" alt="NM Eva Health"></a>
+		  </div>
+          <div class="slide col-lg-2 col-md-4 col-sm-4 col-6 footer-logo3">
+			<a href="http://www.ninemonthspregnancy.com/" target="_blank" class="hvr-wobble-vertical"><img src="images/logo-9month.png" alt="Nine Months Pregnancy"></a>
+		  </div>
+          <div class="slide col-lg-2 col-md-4 col-sm-4 col-6 footer-logo4">
+			<a href="https://www.prolivdigipath.com/" target="_blank" class="hvr-wobble-vertical"><img src="images/logo-pr.png" alt="Proliv Digipath"></a>
+		  </div>
+          <div class="slide col-lg-2 col-md-4 col-sm-4 col-6 footer-logo5">
+			<a href="https://nmprogenome.com/" target="_blank" class="hvr-wobble-vertical"><img src="images/logo-genome.png" alt="Pro Genome"></a>
+		  </div>
+          <div class="slide col-lg-2 col-md-4 col-sm-4 col-6 footer-logo6">
+			<span class="hvr-wobble-vertical"><img src="images/logo-inspira.png" alt="Inspira"></span>
+		  </div> -->
+   		</div>
+		
+			
+		</div>
+		<div class="col-lg-2"></div>
+	</div>
+</div>
+<!--a class="contacticon" target="_blank" href="tel:919324902947"><img src="images/sticky-contact-icon.png" alt="" /></a-->
+    <!-- Start Main Top -->
+     <a class="whatsapp" target="_blank" href="whatsapp-details.html"><img src="images/whatsapp.png" alt=""></a>
+
+<link rel="stylesheet" href="css/hover.css">
+<link rel="stylesheet" href="css/form.css">
+<!--link rel="stylesheet" href="css/scrollbar.css">
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"-->
+<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/animations.min.js"></script> 
+<script src="js/appear.min.js"></script> 
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/easyResponsiveTabs.js"></script>
+<script src="js/tabs.js"></script>
+<script src="../code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="../code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+<script src="../cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("tabs1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<!--script src="js/jquery.mCustomScrollbar.concat.min.js"></script-->
+
+<script>
+	(function($){
+		$(window).load(function(){
+			function addContent(el){
+				//var c="<h2>Appended content</h2>";
+				for(var i=0; i<3; i++){
+					c+="<p>"+el.mcs.content.find("p:eq("+i+")").html()+"</p>";
+				}
+				c+="<p>End of appended content.</p>";
+				el.mcs.content.append(c);
+				$(".offset").appendTo(el.mcs.content);
+			}
+			if($( "#datepicker" ).length)
+			{
+				//$( "#datepicker" ).datepicker();
+				$( "#datepicker" ).datepicker({ minDate: 0,dateFormat: "dd-mm-yy"});
+
+			}
+
+
+			if($( "#timepicker" ).length)
+			{
+
+
+				$('#timepicker').timepicker({
+				    timeFormat: 'h:mm p',
+				    interval: 15,
+				   // minTime: '01',
+				   // maxTime: '11:55pm',
+				    //defaultTime: '10',
+				    startTime: '06:00',
+				    dynamic: false,
+				    dropdown: true,
+				    scrollbar: true
+				});
+			}	
+
+
+
+			
+		});
+	})(jQuery);
+</script>
+
+<script>
+	if($('.browse-btn').length>0)
+	{	
+	const uploadButton = document.querySelector('.browse-btn');
+const fileInfo = document.querySelector('.file-info');
+const realInput = document.getElementById('real-input');
+
+uploadButton.addEventListener('click', (e) => {
+  realInput.click();
+});
+
+realInput.addEventListener('change', () => {
+  const name = realInput.value.split(/\\|\//).pop();
+  const truncated = name.length > 20 
+    ? name.substr(name.length - 20) 
+    : name;
+  
+  fileInfo.innerHTML = truncated;
+});
+}
+</script>
+<script>
+$('#openVideo').magnificPopup({
+    type: 'inline',
+    callbacks: {
+        open: function() {
+
+            $('html').css('margin-right', 0);
+
+            $(this.content).find('video')[0].play();
+
+        } 
+    }
+});
+</script>
+<script>
+$('#openVideo2').magnificPopup({
+    type: 'inline',
+    callbacks: {
+        open: function() {
+
+            $('html').css('margin-right', 0);
+
+            $(this.content).find('video')[0].play();
+
+        } 
+    }
+});
+</script>
+<script src="js/common_script.js"></script>
+
+
+<script>    
+ (function($){
+		$(window).load(function(){
+				
+			if($( "#timepicker" ).length)
+			{
+
+
+				$('#timepicker').timepicker({
+				    timeFormat: 'h:mm p',
+				    interval: 15,
+				    minTime: '07.00am',
+				    maxTime: '07:00pm',
+				    //defaultTime: '10',
+				    startTime: '07:00',
+				    dynamic: false,
+				    dropdown: true,
+				    scrollbar: true
+				});
+			}	
+				
+				
+		});
+	})(jQuery);			
+				
+</script>
+
+<!-- scroller js -->
+<script>
+const carousel = document.querySelector('.carousel');
+const carouselInner = document.querySelector('.carousel-inner');
+const images = carouselInner.querySelectorAll('img');
+
+let currentImageIndex = 0;
+let imageHeight = images[0].offsetHeight;
+
+function scrollImages() {
+  carouselInner.style.transform = `translateY(-${imageHeight * currentImageIndex}px)`;
+  currentImageIndex++;
+
+  if (currentImageIndex >= images.length) {
+    currentImageIndex = 0;
+  }
+}
+
+setInterval(scrollImages, 2000); // Adjust the interval as needed
+</script>
+
+
+</body>
+
+<!-- Mirrored from www.nmmedical.com/home-visit.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2024 07:23:34 GMT -->
+</html>
